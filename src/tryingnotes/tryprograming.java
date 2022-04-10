@@ -1,18 +1,22 @@
 package tryingnotes;
 import java.util.Scanner;  
 
-public class tryprograming extends Thread {
+public class tryprograming {
 	 	  
 
-	    public static void main(String [] args) 
-	    {
+	    public static void main(String [] args) {
 	    	
-	    	System.out.println("vky");
-	    	System.out.println("blue\n");
+	    	for (int j=0;j<=5;j++) {
+	    	for (int i= 0; i<=5;i++) {
+	    		System.out.print("*");
+	    	}
 	    	
-	    	System.out.print("vky\n");
-	    	System.out.print("blue");
+	    	System.out.println();
+	    }
 	    	
 	    }
 	    
 }
+	  
+	    
+
